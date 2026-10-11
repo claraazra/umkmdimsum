@@ -1,0 +1,3 @@
+const sharp=require('C:/Users/fadhil hadira/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
+const names=['dimsum premium ayam isi 4','dimsum premium ayam isi 4 mentai','dimsum premium ayam mentai isi 6','dimsum premium ayam isi 6','udang premium isi 3','udang premium mentai isi 3','dimsum rumput laut isi 3','dimsum  rumput laut mentai isi 3','dimsum ultah isi 17','Golden Birthday Dim Sum mentai Bouquet isi 15','dimsum ulang tahun isi 7'];
+(async()=>{for(let i=0;i<names.length;i++){await sharp('C:/Users/fadhil hadira/Downloads/'+names[i]+'.png').resize({width:850,withoutEnlargement:true}).webp({quality:88}).toFile('assets/menu-'+(i+1)+'.webp')}console.log('11 menu images optimized')})();

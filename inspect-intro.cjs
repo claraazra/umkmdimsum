@@ -1,0 +1,5 @@
+const {chromium}=require('C:/Users/fadhil hadira/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const b=await chromium.launch({headless:true,channel:"msedge"});const p=await b.newPage({viewport:{width:1100,height:750}});await p.goto('file:///C:/Users/fadhil%20hadira/OneDrive/Documents/pojokdimsum/reference/video.html');await p.waitForSelector('video');await p.evaluate(async()=>{const v=document.querySelector('video');await new Promise(r=>{if(v.readyState>=1)r();else v.onloadedmetadata=r});v.pause()});const duration=await p.evaluate(()=>document.querySelector('video').duration);console.log({duration});for(let i=0;i<6;i++){await p.evaluate(async(t)=>{const v=document.querySelector('video');v.currentTime=t;await new Promise(r=>v.onseeked=r)},0.5+i*0.65);await p.screenshot({path:`reference/intro-${i}.png`});}await b.close()})();
+
+
+

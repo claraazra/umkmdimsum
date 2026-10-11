@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fa3419"><meta name="description" content="Pojok Raja Dimsum — dimsum hangat, mentai creamy, dan rasa juara. Jelajahi menu dimsum, aneka minuman, dan pesan langsung melalui WhatsApp.">
+  <title>Pojok Raja Dimsum — Rasa Raja di Setiap Gigitan</title>
+  <script>document.documentElement.classList.add('motion-pending');window.motionFallback=setTimeout(()=>{document.documentElement.classList.remove('motion-pending');document.querySelector('.splash')?.remove();document.body.classList.remove('opening');},12000);</script>
+  <link rel="icon" href="assets/logo.webp"><link rel="preload" as="image" href="assets/menu-2.webp"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="polish.css">
+  <script src="script.js" defer></script><script src="motion.js" defer></script><script src="navigation.js" defer></script><script src="fx.js" defer></script><script src="polish.js" defer></script>
+</head>
+<body>
+  <div class="splash-wipe" aria-hidden="true"></div>
+  <div class="splash" aria-hidden="true">
+    <div class="splash-bits"><i>✳</i><i>✳</i><i>●</i><i>✳</i><i>●</i><i>✳</i><i>●</i><i>✳</i></div>
+    <div class="splash-center">
+      <div class="app-icon">
+        <svg class="ring" viewBox="0 0 120 120"><circle class="ring-bg" cx="60" cy="60" r="56"/><circle class="ring-fill" cx="60" cy="60" r="56" pathLength="100"/></svg>
+        <div class="splash-steam"><i></i><i></i><i></i></div>
+        <div class="icon-tile"><img class="splash-photo" src="assets/menu-2.webp" alt=""></div>
+      </div>
+      <div class="splash-percent"><b>0</b><span>%</span></div>
+      <div class="splash-bar" aria-hidden="true"><b></b></div>
+      <p class="splash-status">Menyiapkan adonan...</p>
+      <ul class="splash-steps"><li>Adonan</li><li>Isian</li><li>Kukus</li></ul>
+    </div>
+    <div class="splash-foot"><img src="assets/logo.webp" alt=""><span>Rasa raja di setiap gigitan</span></div>
+  </div>
+  <button class="skip-intro" type="button">LEWATI ›</button>
+  <a class="skip-link" href="#menu">Langsung ke menu</a>
+  <header class="header">
+    <div class="header-bar">
+      <a class="brand" href="#home" aria-label="Pojok Raja Dimsum, beranda"><img class="logo" src="assets/logo.webp" alt="Pojok Raja Dimsum" width="240" height="78"></a>
+      <nav class="desktop-nav" aria-label="Navigasi desktop"><span class="nav-thumb" aria-hidden="true"></span><a href="#home" data-nav="home">Beranda</a><a href="#rasa" data-nav="rasa">Tentang</a><a href="#menu" data-nav="menu">Menu</a><a href="#minuman" data-nav="minuman">Minuman</a><a href="#kedai" data-nav="kedai">Kedai</a><a href="#kontak" data-nav="kontak">Kontak</a></nav>
+      <div class="header-actions">
+        <button class="nav-cart" type="button" data-open-cart aria-label="Buka pesananmu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg><span class="nav-cart-count" id="nav-cart-count" aria-hidden="true">0</span></button>
+        <a class="button small" href="#menu">Pesan sekarang <span>↗</span></a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navigation"><span class="toggle-label">Menu</span> <span class="hamburger"><i></i><i></i></span></button>
+      </div>
+      <i class="scroll-progress" aria-hidden="true"></i>
+    </div>
+  </header>
+  <nav id="navigation" class="navigation" aria-label="Navigasi utama">
+    <div class="nav-links">
+      <a href="#home" data-nav="home" style="--i:0"><span class="nav-title">Beranda</span><span class="nav-sub">Mulai dari sini</span></a>
+      <a href="#rasa" data-nav="rasa" style="--i:1"><span class="nav-title">Tentang rasa</span><span class="nav-sub">Kenapa bikin nagih</span></a>
+      <a href="#menu" data-nav="menu" style="--i:2"><span class="nav-title">Menu</span><span class="nav-sub">11 pilihan dimsum</span></a>
+      <a href="#minuman" data-nav="minuman" style="--i:3"><span class="nav-title">Minuman</span><span class="nav-sub">5 pilihan segar</span></a>
+      <a href="#kedai" data-nav="kedai" style="--i:4"><span class="nav-title">Kedai</span><span class="nav-sub">Mampir, yuk</span></a>
+      <a href="#kontak" data-nav="kontak" style="--i:5"><span class="nav-title">Kontak</span><span class="nav-sub">Tanya &amp; pesan</span></a>
+    </div>
+    <div class="nav-foot" style="--i:6"><a class="button" href="#menu">Pesan sekarang <span>↗</span></a><div class="nav-social"><a href="https://wa.me/62882017580214" target="_blank" rel="noopener">WhatsApp</a><a href="https://www.instagram.com/pojokraja_official?cplk=MXVnMHlncjQzOXM0NQ==" target="_blank" rel="noopener">Instagram</a><a href="https://www.tiktok.com/@poja_official?_r=1&amp;_t=ZS-9ASq5ae24qm" target="_blank" rel="noopener">TikTok</a></div></div>
+  </nav>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-title-wrap"><h1 id="hero-title" aria-label="THE DIMSUM"><span class="title-letter" aria-hidden="true">T</span><span class="title-letter" aria-hidden="true">H</span><span class="title-letter" aria-hidden="true">E</span><span class="title-letter" aria-hidden="true">&nbsp;</span><span class="title-letter" aria-hidden="true">D</span><span class="title-letter" aria-hidden="true">I</span><span class="title-letter" aria-hidden="true">M</span><span class="title-letter" aria-hidden="true">S</span><span class="title-letter" aria-hidden="true">U</span><span class="title-letter" aria-hidden="true">M</span></h1></div>
+      <span class="sticker hero-sticker-left">MELTY<br>MENTAI!</span><span class="sticker hero-sticker-right">BOLD<br>FLAVOR!</span>
+      <div class="hero-food" aria-label="Dimsum dengan saus mentai panggang"><div class="food-float"><div class="hero-assembly" role="img" aria-label="Dimsum mentai dengan saus melty dan isian gurih"><video class="hero-piece hero-whole hero-video" id="hero-video" muted playsinline preload="auto" disablepictureinpicture aria-hidden="true" tabindex="-1"><source src="assets/dimsum.webm" type="video/webm"></video><img class="hero-fallback" src="assets/dimsum-last.webp" alt="" hidden></div></div></div>
+      <span class="spark spark-one" aria-hidden="true">✳</span><span class="spark spark-two" aria-hidden="true">✳</span>
+      <div class="hero-bottom"><p>Lembut di dalam.<br>Melty di atas.<br>Rasa raja di setiap gigitan.</p><a href="#rasa" class="hero-word" aria-label="Jelajahi rasa dimsum">JUARA!</a><p>Mentai creamy, aroma smoky,<br>dan gurih yang bikin<br>mau lagi, lagi, dan lagi.</p></div>
+      <button class="replay-intro" type="button" aria-label="Putar ulang animasi pembuka">↻ PUTAR ULANG INTRO</button>
+      <a class="scroll-hint" href="#rasa">SCROLL BUAT NGILER <span>↓</span></a>
+    </section>
+    <div class="ticker" aria-hidden="true"><div class="ticker-row" data-dir="-1"><div class="ticker-track">FRESH &amp; WARM ✳ MELTY MENTAI ✳ RASA RAJA ✳ DIMSUM TIME ✳ FRESH &amp; WARM ✳ MELTY MENTAI ✳ RASA RAJA ✳ DIMSUM TIME ✳ FRESH &amp; WARM ✳ MELTY MENTAI ✳ RASA RAJA ✳ DIMSUM TIME ✳ FRESH &amp; WARM ✳ MELTY MENTAI ✳ RASA RAJA ✳ DIMSUM TIME ✳ </div></div><div class="ticker-row alt" data-dir="1"><div class="ticker-track">BUKAN DIMSUM BIASA ✳ KECIL BENTUKNYA ✳ GEDE RASANYA ✳ LAGI, LAGI, DAN LAGI ✳ BUKAN DIMSUM BIASA ✳ KECIL BENTUKNYA ✳ GEDE RASANYA ✳ LAGI, LAGI, DAN LAGI ✳ BUKAN DIMSUM BIASA ✳ KECIL BENTUKNYA ✳ GEDE RASANYA ✳ LAGI, LAGI, DAN LAGI ✳ </div></div></div>
+    <section class="experience" id="rasa">
+      <span class="eyebrow sticker">BUKAN DIMSUM BIASA</span>
+      <h2 class="reveal">KECIL BENTUKNYA.<br><em>GEDE</em> RASANYA.</h2>
+      <p class="reveal">Dikukus hangat, dilapisi saus mentai yang creamy, lalu dipanggang sampai wangi smoky. Gigitan pertama bikin penasaran. Gigitan kedua bikin pesan lagi.</p>
+      <a class="button cream reveal" href="#menu">TEMUKAN FAVORITMU <span>↗</span></a>
+      <div class="filling-chips reveal" role="group" aria-label="Lompat ke menu berdasarkan isian"><span>Mau isian apa?</span><button type="button" data-jump-filling="ayam">Ayam</button><button type="button" data-jump-filling="udang">Udang</button><button type="button" data-jump-filling="laut">Rumput laut</button></div>
+      <img class="experience-food" src="assets/middle.webp" alt="" loading="lazy"><span class="experience-doodle" aria-hidden="true">♡</span>
+    </section>
+    <section class="layers-section" aria-labelledby="layers-title"><div class="layers-sticky">
+      <div class="layers-heading"><span class="eyebrow">SATU PORSI, BIKIN NAGIH</span><h2 id="layers-title">RAHASIA<br><em>SI JUARA.</em></h2><p>Tiga hal yang bikin satu porsi terasa penuh: saus, isian, dan kukusan hangat.</p></div>
+      <div class="layers-food"><img class="layer layer-whole" src="assets/menu-2.webp" alt="Satu porsi dimsum ayam mentai utuh dalam kukusan bambu"></div>
+      <div class="layer-notes"><div><b>Melty mentai</b><p>Saus creamy yang dipanggang sampai bagian atasnya keemasan dan wangi.</p></div><div><b>Isian gurih</b><p>Pilih ayam, udang, atau rumput laut. Tiap isian punya karakter sendiri.</p></div><div><b>Lembut &amp; hangat</b><p>Dikukus dulu supaya kulitnya lembut. Pas buat ngemil sambil ngobrol.</p></div></div>
+      <span class="layers-bottom-label" aria-hidden="true">GOOD MOOD. GOOD FOOD.</span>
+    </div></section>
+    <section class="menu-section" id="menu"><div class="section-heading reveal"><div><span class="eyebrow">PILIH JAGOANMU</span><h2>THE <em>MENU.</em></h2></div><p>Original, mentai, dan paket ulang tahun. Tambahkan ke pesanan, lalu kirim lewat WhatsApp.</p></div>
+      <div class="menu-controls reveal">
+        <div class="filters seg" role="group" aria-label="Kategori menu"><span class="seg-thumb" aria-hidden="true"></span><button type="button" class="active" data-filter="all" aria-pressed="true">Semua <i data-count="all"></i></button><button type="button" data-filter="mentai" aria-pressed="false">Mentai <i data-count="mentai"></i></button><button type="button" data-filter="original" aria-pressed="false">Original <i data-count="original"></i></button><button type="button" data-filter="celebration" aria-pressed="false">Ulang tahun <i data-count="celebration"></i></button></div>
+        <div class="filling-filter" role="group" aria-label="Filter isian"><span>Isian</span><button type="button" class="active" data-filling="all" aria-pressed="true">Semua</button><button type="button" data-filling="ayam" aria-pressed="false">Ayam</button><button type="button" data-filling="udang" aria-pressed="false">Udang</button><button type="button" data-filling="laut" aria-pressed="false">Rumput laut</button></div>
+      </div>
+      <div class="menu-toolbar"><span id="menu-count" role="status" aria-live="polite">11 pilihan untuk kamu</span><span>Dikukus hangat. Dinikmati bersama.</span></div><div class="product-grid" id="product-grid"></div>
+      <p class="menu-note">Harga mengikuti daftar menu. Ketersediaan, ongkir, dan total akhir dikonfirmasi kedai lewat WhatsApp. Foto produk adalah ilustrasi penyajian.</p>
+      <a class="text-link" href="assets/menu-original.webp" target="_blank" rel="noopener">Lihat foto daftar menu asli ↗</a>
+    </section>
+
+
+    <section class="drinks" id="minuman" aria-labelledby="drinks-title">
+      <div class="section-heading reveal"><div><span class="eyebrow">TEMAN DIMSUM</span><h2 id="drinks-title">ANEKA <em>MINUMAN.</em></h2></div><p>Dari es teh yang menyegarkan sampai kocok buah yang creamy. Teman pas buat dimsum hangat.</p></div>
+      <div class="product-grid drink-grid" id="drink-grid"></div>
+      <p class="menu-note">Harga dan ketersediaan minuman dikonfirmasi kedai lewat WhatsApp. Foto produk adalah ilustrasi penyajian.</p>
+    </section>
+
+    <section class="how" id="cara" aria-labelledby="how-title">
+      <div class="how-head reveal"><span class="eyebrow">CARA PESAN</span><h2 id="how-title">TIGA LANGKAH.<br><em>LANGSUNG NGILER.</em></h2></div>
+      <ol class="how-steps">
+        <li class="reveal" style="--i:0"><span class="how-num" aria-hidden="true">1</span><h3>Pilih menu</h3><p>Tambahkan dimsum favoritmu ke pesanan. Isian dan porsinya boleh dicampur.</p></li>
+        <li class="reveal" style="--i:1"><span class="how-num" aria-hidden="true">2</span><h3>Kirim lewat WhatsApp</h3><p>Pesananmu langsung tersusun jadi pesan. Tinggal tekan kirim, tidak perlu mengetik ulang.</p></li>
+        <li class="reveal" style="--i:2"><span class="how-num" aria-hidden="true">3</span><h3>Tunggu konfirmasi</h3><p>Kedai mengecek ketersediaan, ongkir, dan total akhir sebelum pesananmu dilanjutkan.</p></li>
+      </ol>
+    </section>
+    <section class="reviews" id="ulasan" aria-labelledby="reviews-title">
+      <div class="section-heading reveal"><div><span class="eyebrow">KATA PELANGGAN</span><h2 id="reviews-title">DIMSUM <em>DISUKAI.</em></h2></div><p>Cerita dari yang sudah mencoba. Habis makan, tinggalkan rating dan komentarmu juga.</p></div>
+      <div class="rev-top">
+        <div class="rev-summary" id="rev-summary" aria-live="polite"></div>
+        <form class="rev-form" id="rev-form" novalidate>
+          <h3>Tulis ulasanmu</h3>
+          <div class="rev-field"><span class="rev-label" id="rev-rate-label">Rating kamu</span>
+            <div class="rev-stars-input" id="rev-stars-input" role="radiogroup" aria-labelledby="rev-rate-label"></div>
+          </div>
+          <div class="rev-row">
+            <label class="rev-field">Nama<input id="rev-name" type="text" maxlength="30" placeholder="Nama kamu (boleh inisial)" autocomplete="given-name"></label>
+            <label class="rev-field">Menu yang dicoba<select id="rev-item"><option value="">Pilih menu (opsional)</option></select></label>
+          </div>
+          <label class="rev-field">Komentar<textarea id="rev-text" maxlength="300" rows="4" placeholder="Ceritakan rasanya, porsinya, atau pelayanannya..."></textarea></label>
+          <div class="rev-foot"><small id="rev-count">0/300</small><button type="submit" class="button small">Kirim ulasan <span>↗</span></button></div>
+          <p class="rev-error" id="rev-error" role="alert" hidden></p>
+          <p class="rev-note">Ulasan yang kamu kirim tersimpan di browser perangkat ini.</p>
+        </form>
+      </div>
+      <div class="rev-grid" id="rev-grid"></div>
+      <button type="button" class="rev-more" id="rev-more" hidden></button>
+    </section>
+
+    <section class="photo-break"><img src="assets/people.webp" alt="Suasana ramah di Pojok Raja Dimsum" loading="lazy"><div><span class="sticker">DIBUAT DENGAN HATI</span><h2>MAKAN ENAK.<br><em>HATI SENANG.</em></h2></div></section>
+    <section class="community" id="kedai"><div class="section-heading reveal"><div><span class="eyebrow">DARI POJOK, UNTUK KAMU</span><h2>POJOK KECIL.<br><em>CERITA BESAR.</em></h2></div><p>Mampir untuk ngemil, ngobrol panjang, atau bawa pulang dimsum hangat buat orang di rumah. Ada tempat untuk semua cerita.</p></div><div class="photo-line" aria-hidden="true"></div><div class="photo-gallery"><figure class="photo-card"><span class="sticker">MAMPIR, YUK!</span><img src="assets/store.webp" alt="Tampak depan kedai Pojok Raja Dimsum" loading="lazy"><figcaption>Di sini rasa juara dimulai. ↗</figcaption></figure><figure class="photo-card"><span class="sticker">SANTAI DULU.</span><img src="assets/interior.webp" alt="Area duduk lesehan di dalam kedai" loading="lazy"><figcaption>Sudut nyaman, obrolan panjang. ♡</figcaption></figure><figure class="photo-card"><span class="sticker">MENU DIMSUM</span><img src="assets/menu-board.webp" alt="Papan menu dimsum Pojok Raja: dimsum ekonomis 1K, dimsum premium 15K sampai 22K, dan dimsum sedang 2.500 per pcs" loading="lazy"><figcaption>Menu dimsum, mulai dari 1K. ✳</figcaption></figure></div><div class="community-bottom"><p>Mau pesan untuk acara, kado ulang tahun, atau jadi reseller?<br>Ceritakan kebutuhanmu, kami bantu hitung.</p><a class="button dark" href="https://wa.me/62882017580214?text=Halo%20Pojok%20Raja%20Dimsum%2C%20saya%20mau%20tanya%20pesanan%20acara%20atau%20reseller." target="_blank" rel="noopener">Tanya via WhatsApp ↗</a></div></section>
+
+    <section class="gallery" id="galeri" aria-labelledby="gallery-title">
+      <div class="section-heading reveal"><div><span class="eyebrow">POTRET DARI POJOK</span><h2 id="gallery-title">GALERI <em>POJOK.</em></h2></div><p>Beberapa potret dari kedai kami, dan tiga video singkat dari dapur.</p></div>
+      <div class="gallery-grid">
+        <figure class="g-item g-tall reveal"><button type="button" data-lightbox="assets/gal-kedai.webp" aria-label="Perbesar foto: Kedai di malam hari"><img src="assets/gal-kedai.webp" alt="Kedai Pojok Raja Dimsum tampak depan saat malam" width="960" height="1280" loading="lazy"></button><figcaption>Kedai di malam hari</figcaption></figure>
+        <figure class="g-item g-tall reveal" style="--i:1"><button type="button" data-lightbox="assets/gal-gerobak.webp" aria-label="Perbesar foto: Tempat lokasi dimsum"><img src="assets/gal-gerobak.webp" alt="Tempat lokasi dimsum dengan gerobak dan tulisan harga mulai 1K" width="1000" height="1333" loading="lazy"></button><figcaption>Tempat lokasi dimsum</figcaption></figure>
+        <figure class="g-item g-tall reveal" style="--i:2"><button type="button" data-lightbox="assets/gal-banner.webp" aria-label="Perbesar foto: Banner menu"><img src="assets/gal-banner.webp" alt="Banner menu dimsum, seblak, dan es di samping gerobak" width="1000" height="1333" loading="lazy"></button><figcaption>Banner menu di depan gerobak</figcaption></figure>
+        <figure class="g-item g-wide reveal"><button type="button" data-lightbox="assets/gal-area.webp" aria-label="Perbesar foto: Area tempat makan"><img src="assets/gal-area.webp" alt="Area tempat makan lesehan di dalam kedai" width="1300" height="867" loading="lazy"></button><figcaption>Area tempat makan</figcaption></figure>
+        <figure class="g-item g-wide reveal" style="--i:1"><button type="button" data-lightbox="assets/gal-hampers.webp" aria-label="Perbesar foto: Hampers dimsum"><img src="assets/gal-hampers.webp" alt="Contoh hampers dimsum untuk ulang tahun dan perayaan" width="1300" height="901" loading="lazy"></button><figcaption>Hampers dimsum untuk perayaan</figcaption></figure>
+      </div>
+      <div class="video-panel reveal" id="video-panel">
+        <div class="video-head"><h3>Video dari dapur</h3><p>Lihat langsung bagaimana dimsum kami dibuat dan disajikan.</p></div>
+        <div class="vstage">
+          <div class="vlist" id="vlist" role="group" aria-label="Pilih video"></div>
+          <div class="vplayer">
+            <div class="vframe" id="vframe">
+              <video id="vmain" src="assets/video-1.mp4" poster="assets/video-1-poster.webp" controls playsinline preload="metadata" aria-label="Dimsum ulang tahun mentai dengan topper Happy Birthday"></video>
+              <p class="vfail" id="vfail" hidden>Video belum bisa dimuat. Coba muat ulang halaman.</p>
+            </div>
+            <p class="vnow" id="vnow" aria-live="polite"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" aria-labelledby="faq-title">
+      <div class="faq-head reveal"><span class="eyebrow">MASIH PENASARAN?</span><h2 id="faq-title">YANG SERING<br><em>DITANYAKAN.</em></h2></div>
+      <div class="faq-list">
+        <details class="reveal"><summary>Bagaimana cara memesan?</summary><p>Pilih menu, tekan tombol Pesananmu, lalu lanjut ke WhatsApp. Isi pesannya sudah tersusun otomatis, kamu tinggal mengirimnya.</p></details>
+        <details class="reveal"><summary>Apakah bayar langsung di website?</summary><p>Tidak. Website ini hanya menyusun pesananmu. Pembayaran, ongkir, dan total akhir dikonfirmasi lewat WhatsApp.</p></details>
+        <details class="reveal"><summary>Minuman apa saja yang ada?</summary><p>Mangga kocok, durian kocok, alpukat kocok, es teller, dan es teh. Pilih di bagian Minuman, lalu lanjutkan pesanan lewat WhatsApp.</p></details>
+        <details class="reveal"><summary>Apa bedanya original dan mentai?</summary><p>Original adalah dimsum gurih tanpa saus tambahan. Mentai dilapisi saus mentai creamy lalu dipanggang sampai wangi smoky.</p></details>
+        <details class="reveal"><summary>Pilihan isiannya apa saja?</summary><p>Ayam, udang, dan rumput laut. Ayam tersedia dalam porsi isi 4 dan isi 6, udang dan rumput laut dalam porsi isi 3.</p></details>
+        <details class="reveal"><summary>Berapa harga paket ulang tahun?</summary><p>Harganya belum dipatok di website karena menyesuaikan pesanan. Tekan tombol Chat di kartu menu, dan kami jawab lewat WhatsApp.</p></details>
+        <details class="reveal"><summary>Bisa pesan untuk acara atau jadi reseller?</summary><p>Bisa. Ceritakan jumlah dan tanggalnya lewat WhatsApp, lalu kami bantu atur.</p></details>
+      </div>
+    </section>
+    <section class="contact" id="kontak"><span class="eyebrow">SUDAH NGILER?</span><h2>SAATNYA<br><em>DIMSUM!</em></h2><a class="button cream" href="#menu">PILIH MENU &amp; PESAN <span>↗</span></a><p>Lebih suka ngobrol dulu? Chat langsung: <a href="https://wa.me/62882017580214" target="_blank" rel="noopener">0882-0175-80214</a></p><div class="social-links"><a href="https://www.instagram.com/pojokraja_official?cplk=MXVnMHlncjQzOXM0NQ==" target="_blank" rel="noopener">INSTAGRAM ↗</a><a href="https://www.tiktok.com/@poja_official?_r=1&amp;_t=ZS-9ASq5ae24qm" target="_blank" rel="noopener">TIKTOK ↗</a></div><span class="contact-star" aria-hidden="true">✳</span></section>
+  </main>
+  <footer>
+    <div class="footer-cta">
+      <p class="footer-eyebrow">Lapar? Yuk pesan</p>
+      <p class="footer-title">Lembut dimsumnya.<br><em>Juara rasanya.</em></p>
+      <div class="footer-actions">
+        <a class="button" href="#menu">Pesan sekarang <span>↗</span></a>
+        <a class="button ghost" href="https://wa.me/62882017580214" target="_blank" rel="noopener">Chat WhatsApp <span>↗</span></a>
+      </div>
+    </div>
+    <div class="footer-grid">
+      <nav aria-label="Navigasi footer">
+        <b>Jelajahi</b>
+        <div class="footer-links">
+          <a href="#home">Beranda</a><a href="#rasa">Tentang rasa</a><a href="#menu">Menu</a><a href="#minuman">Minuman</a><a href="#cara">Cara pesan</a><a href="#ulasan">Ulasan</a><a href="#kedai">Kedai</a><a href="#galeri">Galeri</a><a href="#faq">Tanya jawab</a>
+        </div>
+      </nav>
+      <div class="footer-contact">
+        <b>Hubungi kami</b>
+        <a href="https://wa.me/62882017580214" target="_blank" rel="noopener"><span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20l1.3-4.2A8 8 0 1 1 8.4 18.8L4 20Z"/><path d="M9.2 9.2c.2 2 2.4 4.2 4.6 4.6l1.2-1.1-1.6-1-.8.6c-.8-.3-1.7-1.2-2-2l.6-.8-1-1.6-1 1.3Z"/></svg></span><span class="contact-text"><small>WhatsApp</small><strong>0882-0175-80214</strong></span></a>
+        <a href="https://www.instagram.com/pojokraja_official?cplk=MXVnMHlncjQzOXM0NQ==" target="_blank" rel="noopener"><span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.2 6.8h.01"/></svg></span><span class="contact-text"><small>Instagram</small><strong>@pojokraja_official</strong></span></a>
+        <a href="https://www.tiktok.com/@poja_official?_r=1&amp;_t=ZS-9ASq5ae24qm" target="_blank" rel="noopener"><span class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c.4 2.4 1.9 3.9 4.5 4.2"/></svg></span><span class="contact-text"><small>TikTok</small><strong>@poja_official</strong></span></a>
+      </div>
+    </div>
+    <div class="footer-mark" aria-hidden="true">Dimsum Juara</div>
+    <div class="footer-bottom"><span>© <span id="year">2026</span> Pojok Raja Dimsum</span><a class="back-top" href="#home">Balik ke atas ↑</a></div>
+  </footer>
+  <button class="cart-fab" type="button" data-open-cart aria-controls="cart-dialog" aria-label="Buka pesanan" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 8h14l-1.2 11.2a2 2 0 0 1-2 1.8H8.2a2 2 0 0 1-2-1.8Z"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8"/></svg><span class="fab-label">Pesananmu</span><span class="fab-count" id="cart-count">0</span><span class="fab-total" id="fab-total"></span></button>
+  <dialog id="lightbox" aria-label="Foto diperbesar"><button type="button" class="lb-close" aria-label="Tutup foto">✕</button><img alt=""></dialog>
+  <dialog id="cart-dialog"><div class="dialog-heading"><div><span class="eyebrow">TINGGAL SELANGKAH LAGI</span><h2>PESANANMU.</h2></div><button class="close-dialog" aria-label="Tutup pesanan">✕</button></div><div id="cart-items"></div><button type="button" class="clear-cart" hidden>Kosongkan pesanan</button><div class="cart-total"><span>Subtotal</span><strong id="cart-total">Rp0</strong></div><p class="cart-disclaimer">Belum termasuk ongkir. Pesanan dikonfirmasi lewat WhatsApp, belum dibayar melalui website.</p><label for="order-name">Nama pemesan (opsional)</label><input id="order-name" autocomplete="name" placeholder="Nama kamu" maxlength="80"><label for="order-notes">Catatan (opsional)</label><textarea id="order-notes" placeholder="Contoh: ambil sendiri, saus dipisah" maxlength="500"></textarea><a id="checkout" class="button" href="https://wa.me/62882017580214" target="_blank" rel="noopener">Kirim pesanan lewat WhatsApp ↗</a></dialog>
+<nav class="mobile-dock" aria-label="Navigasi bawah"><span class="dock-thumb" aria-hidden="true"></span><a href="#home" data-nav="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/></svg><span>Beranda</span></a><a href="#menu" data-nav="menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg><span>Menu</span></a><a href="#minuman" data-nav="minuman"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8h12l-1.3 11.2a2 2 0 0 1-2 1.8H9.3a2 2 0 0 1-2-1.8Z"/><path d="M5 8h14M13 8l2.5-5.5"/></svg><span>Minuman</span></a><a href="#kedai" data-nav="kedai"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 10v11h16V10M3 10l2-7h14l2 7M3 10q3 4 6 0 3 4 6 0 3 4 6 0M9 21v-7h6v7"/></svg><span>Kedai</span></a><a href="#kontak" data-nav="kontak"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H4l-2 2v-9.5A8.5 8.5 0 1 1 21 11.5Z"/><path d="M7 10h9M7 14h5"/></svg><span>Kontak</span></a></nav>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
+
+
